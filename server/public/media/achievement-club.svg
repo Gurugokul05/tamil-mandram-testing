@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800" role="img" aria-label="Achievement">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3B0A16"/>
+      <stop offset="1" stop-color="#7A1F2B"/>
+    </linearGradient>
+    
+  <pattern id="kolamDots" width="64" height="64" patternUnits="userSpaceOnUse">
+    <circle cx="8" cy="8" r="2.2" fill="#E7C873" opacity="0.5"/>
+    <circle cx="40" cy="24" r="1.4" fill="#E7C873" opacity="0.35"/>
+    <circle cx="24" cy="48" r="1.8" fill="#E7C873" opacity="0.4"/>
+  </pattern>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+  <rect width="800" height="800" fill="url(#kolamDots)" opacity="0.5"/>
+  <g transform="translate(400 380)">
+  <g stroke="#E7C873" stroke-width="1.5" fill="none" opacity="0.6">
+    <circle cx="0" cy="0" r="46"/>
+    <circle cx="0" cy="0" r="86" stroke-dasharray="4 10"/>
+    <circle cx="0" cy="0" r="124" stroke-dasharray="1 14"/>
+    <path d="M-46 0 A46 46 0 0 1 0 -46 A46 46 0 0 1 46 0 A46 46 0 0 1 0 46 A46 46 0 0 1 -46 0Z"/>
+    <path d="M0 -86 L0 86 M-86 0 L86 0"/>
+    <circle cx="61" cy="61" r="4" fill="#E7C873" stroke="none"/>
+    <circle cx="-61" cy="61" r="4" fill="#E7C873" stroke="none"/>
+    <circle cx="61" cy="-61" r="4" fill="#E7C873" stroke="none"/>
+    <circle cx="-61" cy="-61" r="4" fill="#E7C873" stroke="none"/>
+  </g></g>
+  <text x="400" y="470" font-family="'Noto Sans Tamil','Latha',sans-serif" font-size="280" fill="#E7C873" opacity="0.9" text-anchor="middle">வெ</text>
+  <text x="400" y="744" font-family="Georgia,serif" font-size="15" letter-spacing="6" fill="#E7C873" text-anchor="middle" opacity="0.7">TAMIL MANDRAM</text>
+</svg>
